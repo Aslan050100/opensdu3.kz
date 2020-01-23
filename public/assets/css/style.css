@@ -1,0 +1,303 @@
+/* add */
+body {
+    margin:0;
+    padding:0;
+    font-family: "Montserrat";
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.add_suggest a {
+    color: rgb(58, 83, 113);
+    text-decoration: underline;
+    margin:0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(52, 68, 88);
+    padding: 20px 90px;
+}
+
+.sdu-logo {
+    filter: brightness(0%) invert(1);
+    width: 65px;
+}
+
+.button-join {
+    font-family: "Bebas Neue";
+    background-color: rgb(52, 68, 88);
+    border: 2px solid white;
+    text-transform: uppercase;
+    color:white;
+    padding: 0px 20px;
+    font-size: 22px;
+}
+  
+.container {
+    padding: 70px 100px;
+}
+
+.project_title {
+    font-size: 100px;
+    font-family: "Bebas Neue";
+    color: rgb(168, 56, 58);
+    font-weight: bold;
+    line-height: 0.081;
+    text-align: center;  
+    margin-bottom: 40px;
+}
+
+.add_suggest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project_desc {
+    font-size: 15.625px;
+    font-family: "Montserrat";
+    color: rgb(52, 68, 88);
+    line-height: 1;
+    text-align: center;
+    width: 900px;
+}
+
+.rows {
+    padding: 20px 0;
+    padding-bottom: 0;
+    width:900px;
+}
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 450px;
+}
+
+.input-box-label {
+    font-size: 15px;
+    font-family: "Montserrat";
+    color: rgb(52, 68, 88);
+    text-align: left;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+
+.input-box-area {
+    border-width: 2.05px;
+    border-color: rgb(52, 68, 88);
+    border-style: solid;
+    border-radius: 5px;
+    height: 25px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 200;
+}
+.row-two {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+.text-area {
+    width: 100%;
+    padding: 25px 10px;
+    font-size: 14px;
+    border: 2px solid rgb(52, 68, 88);
+    border-radius: 5px;
+}
+
+.button-suggest {
+    position: absolute;
+    font-family: "Bebas Neue";
+    top: 32px;
+    right: 32px;
+    background-color: rgb(52, 68, 88);
+    color:white;
+    padding: 10px 30px 5px 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.footer {
+    text-align: center;
+    font-family: "Bebas Neue";
+    width: 100%;
+    background-color: rgb(52, 68, 88);
+    position: relative;
+    color: white;
+    padding: 25px 0;
+    left:0;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px;
+    bottom: 0;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px 150px;
+
+    /* align-items: center; */
+}
+
+.post_div {
+    background-color: rgb(52, 68, 88);
+    color:white;
+    padding: 25px 30px;
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.post_title {
+    font-size: 22px;
+    font-family: "Montserrat";
+    /* padding-left: 20px; */
+    color: rgb(168, 56, 58);
+    font-style: italic;
+    text-align: left;
+    text-shadow:
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+     -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+      font-weight: bold;
+}
+
+.comments_title:before {
+    content:">";
+    padding-right:2px;
+}
+
+.post_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.comments_title, .hash_name {
+    font-size: 18px;
+    margin:0px; 
+    font-weight: 400;
+}
+
+.post_title:hover {
+    text-decoration: underline;
+    cursor:pointer;
+}
+.post_img {
+    width:140px;
+    height: 170px;
+}
+
+.post_status_title {
+    text-align: center;
+    font-size: 14px;
+    color: green;
+    margin: 15px 0;
+    font-style: italic;
+    text-transform: lowercase;
+    text-shadow:
+    -0.7px -0.7px 0 #fff,  
+     0.7px -0.7px 0 #fff,
+     -0.7px 0.7px 0 #fff,
+      0.7px 0.7px 0 #fff;
+      font-weight: bold;
+}
+
+.post_div_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post_text {
+    padding-right: 30px;
+    font-size: 13px;
+}
+
+.post {
+    margin: 15px;
+}
+.help-block {
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.help-text {
+    text-align: right;
+    font-size: 12px;
+    margin:0;
+    width: 100%;
+    padding-right: 9.25%;
+    font-weight: 400;
+}
+
+.post_status_sign {
+    width: 14px;
+    height: 14px;    
+    background-color: green;
+    border-radius: 50%;
+    box-shadow:
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+     -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+      margin-right: 5px;
+}
+.post_status_sign2 {
+    width: 14px;
+    height: 14px;    
+    background-color: red;
+    border-radius: 50%;
+    box-shadow:
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+     -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+      margin-right: 5px;
+}
+.post_status_sign3 {
+    width: 14px;
+    height: 14px;    
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow:
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+     -1px 1px 0 #fff,
+      1px 1px 0 #fff;
+      margin-right: 5px;
+}
+
+.post_status {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
